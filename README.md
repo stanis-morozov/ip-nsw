@@ -77,8 +77,8 @@ Query mode supports the following options:
 ```
 Our best performed index graph from the NIPS paper is (we assume that our ```Music100``` dataset is located in the ```data``` folder):
 ```
-./main --mode database --database data/database/database_music100.bin --databaseSize 1000000 --dimension 100 --outputGraph out_graph.hnsw --efConstruction 1024 --M 32
-./main --mode query --query data/database/query_music100.bin --querySize 10000 --dimension 100 --inputGraph out_graph.hnsw --topK 10 --efSearch 128 --output result.txt
+./main --mode database --database data/database_music100.bin --databaseSize 1000000 --dimension 100 --outputGraph out_graph.hnsw --efConstruction 1024 --M 32
+./main --mode query --query data/query_music100.bin --querySize 10000 --dimension 100 --inputGraph out_graph.hnsw --topK 10 --efSearch 128 --output result.txt
 ```
 The above commands print the output to ```result.txt``` in the following format:
 ```
