@@ -23,7 +23,7 @@ We introduce to the community the new dataset ```Music100```. The database of ``
 
 [Query Music100](https://yadi.sk/d/pdrfKf1dFkNAQA)
 
-Groundtruth: [Top 1](https://yadi.sk/i/CtlFa-0GCSkvPA), [Top 10](https://yadi.sk/i/u0KaNC4KxW6g-g), [Top 100](https://yadi.sk/i/RJ_QGT9a1Ih5lw).
+Groundtruth: [Top 1](https://yadi.sk/i/KdBvmIloinBaAg), [Top 10](https://yadi.sk/i/u0KaNC4KxW6g-g), [Top 100](https://yadi.sk/i/RJ_QGT9a1Ih5lw).
 
 Both files are written in binary format. Vectors are stored consecutively, and numbers are represented in 4-bytes floating poing format (float in C/C++).
 
