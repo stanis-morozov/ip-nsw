@@ -4,6 +4,8 @@ This is the implementation for ```ip-nsw``` from the following paper:
 
 S. Morozov, A. Babenko. Non-metric Similarity Graphs for Maximum Inner Product Search. Advances in Neural Information Processing Systems 31 (NIPS 2018).
 
+and it is substantially based on [https://github.com/yurymalkov/hnsw](https://github.com/yurymalkov/hnsw).
+
 ## Requirements
   - g++ with c++11 support
   - OpenMP installed
